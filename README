@@ -1,0 +1,14 @@
+###Docker-CLI commands
+
+docker build .
+docker build -t brunocandia/visits:latest .
+
+docker run redis
+
+###Docker-compose commands
+
+docker-compose up               //start a group of containers without rebuild
+docker-compose up --build       //start a group of containers previous rebuild them
+docker-compose down             //stop a group of containers
+
+docker-compose ps
